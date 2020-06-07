@@ -18,14 +18,14 @@
 
 */
 
-#include "kafel.h"
+#include <kafel.h>
 
 #include "codegen.h"
 #include "common.h"
 #include "context.h"
 #include "includes.h"
-#include "lexer.h"
-#include "parser.h"
+#include <lexer.h>
+#include <parser.h>
 #include "syscall.h"
 
 // flex <2.5.36 does not declare yyset_column
